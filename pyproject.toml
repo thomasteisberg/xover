@@ -6,4 +6,5 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "icepyx>=2.0.2",
+    "xopr>=0.4.3",
 ]
