@@ -14,3 +14,5 @@ data/icesat_gdf_gt.parquet
 
 notebooks/.ipynb_checkpoints
 notebooks/radar_cache/
+
+radar_cache/
