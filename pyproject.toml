@@ -8,6 +8,7 @@ dependencies = [
     "geoarrow-pandas>=0.1.1",
     "geoarrow-pyarrow>=0.2.0",
     "icepyx>=2.0.2",
+    "jupyter-bokeh>=4.0.5",
     "jupyterlab>=4.5.6",
     "myst>=0.0.1",
     "spyder-kernels==3.0.*",
