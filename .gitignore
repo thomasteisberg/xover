@@ -1,0 +1,15 @@
+# Spyder project settings and metadata
+.spyproject/
+.spyderproject
+.directory
+
+# Spyder crash logs
+spyder_crash.log
+
+__pycache__/
+
+data/antarctic_merged_icesat2_tracks.parquet
+data/antarctic_merged_icesat2_tracks_v2.parquet
+data/icesat_gdf_gt.parquet
+
+notebooks/.ipynb_checkpoints
