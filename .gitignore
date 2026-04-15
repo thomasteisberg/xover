@@ -13,3 +13,4 @@ data/antarctic_merged_icesat2_tracks_v2.parquet
 data/icesat_gdf_gt.parquet
 
 notebooks/.ipynb_checkpoints
+notebooks/radar_cache/
