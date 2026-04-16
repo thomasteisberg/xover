@@ -82,7 +82,7 @@ def crossover_echo_power(intersections_radio, stac_items_df):
         layer_2 = opr.get_layers(frame_2)
 
         # intersect coordinates
-        x_int, y_int = intersect_row.intersection_geometry.coords[0]
+        x_int, y_int, *_ = intersect_row.geometry.coords[0]
 
         # get layer object
         peak_twtt_surf_1, peak_power_surf_1 = extract_basal_echo_power(stac_1, layer_1["standard:surface"], (x_int, y_int), margin_twtt=margin_twtt)
